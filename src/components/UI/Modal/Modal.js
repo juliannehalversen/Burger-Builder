@@ -5,15 +5,16 @@ import Aux from '../../../hoc/Aux/Aux';
 import Backdrop from '../Backdrop/Backdrop';
 
 class Modal extends Component {
-    shouldComponentUpdate(nextProps, nextState) {
+
+    shouldComponentUpdate ( nextProps, nextState ) {
         return nextProps.show !== this.props.show;
     }
 
-    componentWillMount() {
-        console.log('modal will update');
+    componentWillUpdate () {
+        console.log('[Modal] WillUpdate');
     }
 
-    render() {
+    render () {
         return (
             <Aux>
                 <Backdrop show={this.props.show} clicked={this.props.modalClosed} />
@@ -28,7 +29,6 @@ class Modal extends Component {
             </Aux>
         )
     }
-    
-};
+}
 
 export default Modal;
