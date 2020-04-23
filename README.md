@@ -2,7 +2,7 @@ This project was created with React, Redux, and the new React hooks for function
 
 ## Getting started with Burger Builder
 
-### View deployed project here: https://affectionate-galileo-bb9b28.netlify.app/
+### View deployed project here: https://burgerbuilderapplication.netlify.app/
 
 ### OR
 
