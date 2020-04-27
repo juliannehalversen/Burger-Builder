@@ -10,7 +10,6 @@ This project was created with React, Redux, and the new React hooks for function
 - [x] Form validation through React functionality
 - [x] Redux for state management (dispatching actions, reducers, etc.)
 - [x] More advanced Redux (middleware, asynchronous code, etc.)
-- [x] Using a data store to GET and POST to (Firebase)
 
 Although I will continue to learn more and more about React, this project gave me a great understanding on how state management works and the different methods to achieve it. 
 
